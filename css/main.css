@@ -6,7 +6,7 @@
 
 html {
 
-  font-family: Georgia serif;
+  font-family: Georgia, serif;
 
 }
 
@@ -55,6 +55,7 @@ body {
     bottom: 0;
     left: 0;
     background-image: linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, 1));
+    width: 100%;
 
   }
 
