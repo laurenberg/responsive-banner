@@ -4,21 +4,24 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+body {
+
+  background-color: #495562;
+
+}
+
 .banner {
 
-  float: right;
-  position: relative;
   width: 100%;
+  max-height: 500px;
 
 }
 
 .banner-txt {
 
-  float: left;
-  max-height: 500px;
-  background-color: #495562;
   color: #fff;
   width: 100%;
+  max-width: 42em;
 
 }
 
@@ -26,5 +29,23 @@
 
   border-color: #97a49b;
   color: #fff;
+  max-width: 25em;
+
+}
+
+.btn:hover{
+
+  color: #efefef;
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-txt {
+
+    float: left;
+    position: relative;
+
+  }
 
 }
