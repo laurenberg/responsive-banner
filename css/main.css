@@ -15,17 +15,16 @@
 .banner-txt {
 
   float: left;
-  position: absolute;
   max-height: 500px;
   background-color: #495562;
   color: #fff;
   width: 100%;
-  max-width: 42em;
 
 }
 
 .btn {
 
-  border: 8px #97a49b;
+  border-color: #97a49b;
+  color: #fff;
 
 }
