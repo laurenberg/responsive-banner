@@ -21,7 +21,6 @@ body {
   width: 100%;
   max-height: 500px;
   position: relative;
-  overflow: hidden;
 
 }
 
@@ -58,5 +57,22 @@ body {
     width: 100%;
 
   }
+
+  .btn {
+
+    float: right;
+
+  }
+
+  .banner-txt {
+
+    max-width: 50em;
+
+  }
+
+    .banner {
+      max-height: 500px;
+      overflow: hidden;
+    }
 
 }
