@@ -19,7 +19,6 @@ body {
 .banner {
 
   width: 100%;
-  max-height: 500px;
   position: relative;
 
 }
@@ -70,9 +69,9 @@ body {
 
   }
 
-    .banner {
-      max-height: 500px;
-      overflow: hidden;
-    }
+  .banner {
+    max-height: 500px;
+    overflow: hidden;
+  }
 
 }
