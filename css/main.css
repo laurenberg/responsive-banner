@@ -4,6 +4,12 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+html {
+
+  font-family: Georgia serif;
+
+}
+
 body {
 
   background-color: #495562;
@@ -27,7 +33,6 @@ body {
 
 }
 
-
 .btn {
 
   border-color: #97a49b;
@@ -36,7 +41,7 @@ body {
 
 }
 
-.btn:hover{
+.btn:hover {
 
   color: #efefef;
 
@@ -44,15 +49,13 @@ body {
 
 @media only screen and (min-width: 60em) {
 
-
   .banner-cont {
 
     position: absolute;
     bottom: 0;
     left: 0;
+    background-image: linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, 1));
 
   }
-
-
 
 }
